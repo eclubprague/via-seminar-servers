@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 // Hello World
-app.get('/', function (req, res) {
+app.get('/', cors(), function (req, res) {
     res.send('Hello World!');
 });
 
