@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>VIA Seminar Servers</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+              crossorigin="anonymous">
+        <style>
+            body {
+                padding: 50px;
+            }
+            section:first-of-type .page-header,
+            section:first-of-type .page-header h1 {
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1>Hello World</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="well text-center">
+                        <span id="helloWorldText">No message loaded...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <button id="helloWorldBtn" class="btn btn-primary btn-block">Get message from server</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1>Exercise 1</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="well text-center">
+                        <span id="xhttp-date">dd.MM.yyyy</span>
+                        <span id="xhttp-time">HH:mm:ss</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-2">
+                    <button id="update-date-button" class="btn btn-primary btn-block">Update date</button>
+                </div>
+                <div class="col-md-2">
+                    <button id="update-time-button" class="btn btn-warning btn-block">Update time</button>
+                </div>
+                <div class="col-md-2">
+                    <button id="update-datetime-button" class="btn btn-success btn-block">Update date and time</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1>Exercise 2</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="well text-center">
+                        <span id="echoText">No echo loaded...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <button id="echoBtn" class="btn btn-primary btn-block" type="button">Send echo to server</button>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="xmlhttpexample.js"></script>
+        <script type="text/javascript" src="client.js"></script>
+    </body>
+</html>
